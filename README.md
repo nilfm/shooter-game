@@ -2,7 +2,7 @@
 
 ### Requirements and installation
 
-This game requires Python 3.6 or newer.
+This game requires Python 3.6 or newer and Pip (python3-pip).
 
 You will also need Pygame. If you don't have it installed, you can execute:
 
