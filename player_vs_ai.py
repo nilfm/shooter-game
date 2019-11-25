@@ -55,7 +55,6 @@ class Controller:
                 for move, dx, dy in DIRS:
                     new_pos = (self.warrior.pos[0] + dx, self.warrior.pos[1] + dy)
                     new_dists.append(distance_sq(new_pos, bullet_copy.pos))
-                print(new_dists)
                 return new_dists.index(max(new_dists))
                 
         if random.randint(0, self.warrior.scope_angle):
